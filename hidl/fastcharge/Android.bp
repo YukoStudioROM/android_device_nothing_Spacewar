@@ -1,0 +1,18 @@
+cc_binary {
+    name: "vendor.lineage.fastcharge@1.0-service.nothing",
+    defaults: ["hidl_defaults"],
+    init_rc: ["vendor.lineage.fastcharge@1.0-service.nothing.rc"],
+    vintf_fragments: ["vendor.lineage.fastcharge@1.0-service.nothing.xml"],
+    vendor: true,
+    relative_install_path: "hw",
+    srcs: [
+        "FastCharge.cpp",
+        "service.cpp",
+    ],
+    shared_libs: [
+        "libbase",
+        "libhidlbase",
+        "libutils",
+        "vendor.lineage.fastcharge@1.0",
+    ],
+}
