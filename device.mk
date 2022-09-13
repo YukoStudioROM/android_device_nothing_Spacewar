@@ -44,6 +44,10 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# AID/fs configs
+PRODUCT_PACKAGES += \
+    fs_config_files
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
