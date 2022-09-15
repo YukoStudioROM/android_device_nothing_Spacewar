@@ -1,0 +1,12 @@
+# Audio
+aaudio.hw_burst_min_usec=2000
+aaudio.mmap_exclusive_policy=2
+aaudio.mmap_policy=2
+af.fast_track_multiplier=1
+audio.deep_buffer.media=true
+audio.offload.min.duration.secs=30
+audio.offload.video=true
+ro.af.client_heap_size_kbyte=7168
+
+# Thermal
+persist.vendor.thermal.config=/vendor/etc/thermal-engine.conf
