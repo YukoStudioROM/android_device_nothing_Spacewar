@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">8dp</dimen>
+</resources>
